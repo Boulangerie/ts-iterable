@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "files": [
+    "./lib/index.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "module": "commonjs",
+    "target": "es6",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "declaration": true,
+    "noLib": false,
+    "outDir": "./dist",
+    "pretty": true
+  }
+}
