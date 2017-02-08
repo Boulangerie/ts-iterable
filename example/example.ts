@@ -23,6 +23,6 @@ for (const article of cart) {
 }
 
 // Displays:
-// flour
-// eggs
-// milk
+//  flour
+//  eggs
+//  milk
