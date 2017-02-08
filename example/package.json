@@ -1,0 +1,15 @@
+{
+  "description": "Example of usage of the TypeScript Iterable abstract class",
+  "main": "example.ts",
+  "scripts": {
+    "start": "tsc && ts-node example"
+  },
+  "author": "Yannick Galatol <yannick.galatol@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ts-iterable": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.1.5"
+  }
+}

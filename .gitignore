@@ -7,3 +7,6 @@ reports/
 npm-debug.log*
 yarn-error.log
 .nyc_output/
+example/node_modules/
+example/example.js
+example/example.d.ts

@@ -10,8 +10,8 @@
     "ES6",
     "TypeScript"
   ],
-  "main": "./dist/index",
-  "typings": "./dist/index",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
   "scripts": {
     "tslint": "tslint lib/**/*.ts",
     "build": "tsc",
@@ -22,7 +22,7 @@
     "bump:major": "npm run tslint && npm run build && npm version major && git push --tags origin master && npm publish"
   },
   "files": [
-    "src",
+    "lib",
     "dist",
     "README.md"
   ],
@@ -55,6 +55,8 @@
       "lib/**/*.ts"
     ],
     "exclude": [
+      "node_modules",
+      "example",
       "typings",
       "**/*.spec.ts"
     ],
